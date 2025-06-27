@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage - HTML Test</title>
+</head>
+<body>
+    <!-- Headings Section -->
+    <h1>Welcome to My Website</h1>
+    <h2>About This Page</h2>
+    <h3>Learning HTML Basics</h3>
+    <h4>Important Topics Covered</h4>
+    <h5>Skills You Will Learn</h5>
+    <h6>Let's Get Started!</h6>
+
+    <!-- Paragraphs Section -->
+    <p>This is the first paragraph of our webpage. HTML paragraphs are used to display blocks of text. They automatically add spacing before and after the content.</p>
+    
+    <p>This is a second paragraph that demonstrates how multiple paragraphs appear on a webpage. Each paragraph tag creates a new block of text with proper spacing.</p>
+
+    <p>HTML stands for <strong>HyperText Markup Language</strong>. It is the standard markup language for creating web pages. HTML describes the structure of a web page using various elements and tags.</p>
+
+    <!-- Lists Section -->
+    <h2>Types of Lists in HTML</h2>
+    
+    <h3>Ordered List (Numbered)</h3>
+    <p>Here are the steps to create a webpage:</p>
+    <ol>
+        <li>Plan your content</li>
+        <li>Write the HTML structure</li>
+        <li>Add headings and paragraphs</li>
+        <li>Insert lists and links</li>
+        <li>Create tables and forms</li>
+        <li>Test your webpage</li>
+    </ol>
+
+    <h3>Unordered List (Bulleted)</h3>
+    <p>Essential HTML elements include:</p>
+    <ul>
+        <li>Headings (h1 to h6)</li>
+        <li>Paragraphs (p)</li>
+        <li>Lists (ol, ul, li)</li>
+        <li>Links (a)</li>
+        <li>Tables (table, tr, td, th)</li>
+        <li>Forms (form, input, textarea, select)</li>
+    </ul>
+
+    <!-- Links Section -->
+    <h2>Links and Navigation</h2>
+    <p>Here are some useful links for learning web development:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML Documentation</a></li>
+        <li><a href="mailto:teacher@school.edu">Email your teacher</a></li>
+        <li><a href="#contact-form">Jump to Contact Form</a></li>
+    </ul>
+
+    <!-- Table Section -->
+    <h2>Student Grade Table</h2>
+    <p>Below is a sample table showing student information:</p>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Subject</th>
+                <th>Grade</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Smith</td>
+                <td>HTML Basics</td>
+                <td>A</td>
+                <td>Passed</td>
+            </tr>
+            <tr>
+                <td>Sarah Johnson</td>
+                <td>HTML Basics</td>
+                <td>B+</td>
+                <td>Passed</td>
+            </tr>
+            <tr>
+                <td>Mike Wilson</td>
+                <td>HTML Basics</td>
+                <td>A-</td>
+                <td>Passed</td>
+            </tr>
+            <tr>
+                <td>Emily Davis</td>
+                <td>HTML Basics</td>
+                <td>B</td>
+                <td>Passed</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Forms Section -->
+    <h2 id="contact-form">Student Registration Form</h2>
+    <p>Please fill out this form to register for the HTML course:</p>
+
+    <form action="#" method="post">
+        <h3>Personal Information</h3>
+        
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="13" max="100"><br><br>
+
+        <h3>Course Preferences</h3>
+        
+        <label for="course">Select Course Level:</label><br>
+        <select id="course" name="course">
+            <option value="">Choose a level</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select><br><br>
+        
+        <label>Preferred Learning Format:</label><br>
+        <input type="radio" id="online" name="format" value="online">
+        <label for="online">Online</label><br>
+        <input type="radio" id="classroom" name="format" value="classroom">
+        <label for="classroom">Classroom</label><br>
+        <input type="radio" id="hybrid" name="format" value="hybrid">
+        <label for="hybrid">Hybrid</label><br><br>
+        
+        <label>Topics of Interest (check all that apply):</label><br>
+        <input type="checkbox" id="html" name="topics" value="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="topics" value="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="javascript" name="topics" value="javascript">
+        <label for="javascript">JavaScript</label><br>
+        <input type="checkbox" id="responsive" name="topics" value="responsive">
+        <label for="responsive">Responsive Design</label><br><br>
+        
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Tell us about your goals and expectations..."></textarea><br><br>
+        
+        <input type="submit" value="Register Now">
+        <input type="reset" value="Clear Form">
+    </form>
+
+    <!-- Footer -->
+    <hr>
+    <p><em>This webpage was created as part of an HTML learning exercise. Practice makes perfect!</em></p>
+    <p><small>&copy; 2025 HTML Test Page. Created for educational purposes.</small></p>
+
+</body>
+</html>
